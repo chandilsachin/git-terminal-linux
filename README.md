@@ -1,6 +1,6 @@
 # git-terminal-linux
 
-Beutifies linux terminal for git.
+Beautifies linux terminal for git.
 If you are tired of using simple terminal without autofill feature and colored output then this script is for you.
 
 ## Installation
