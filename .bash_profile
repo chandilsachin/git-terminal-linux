@@ -26,8 +26,7 @@ export PS1=$GREEN"\u@\h"'$(
     then echo "'$MAGENTA'"$(__git_ps1 " (%s)")
     # the state is clean, changes are commited
     else echo "'$CYAN'"$(__git_ps1 " (%s)")
-    fi)'$BLUE" [\W]"$GREEN"\n:${CLEAR}"
-
+    fi)'$BLUE" \n[\w]\n${CLEAR}\$ "
 
 alias ll='ls -lah'
 alias gss='git status -s'
